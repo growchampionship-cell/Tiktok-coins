@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Coins | Official Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Define Custom TikTok Brand Colors */
+        .bg-tt-red { background-color: #FE2C55; }
+        .text-tt-red { color: #FE2C55; }
+        .bg-tt-yellow { background-color: #FFDE00; }
+        .text-tt-yellow { color: #FFDE00; }
+        
+        /* Define the Exact Bold Fonts from the image */
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+        .font-pro-bold { font-weight: 800; }
+    </style>
+</head>
+<body class="bg-gray-100 flex justify-center items-center min-h-screen p-4">
+
+    <div class="w-full max-w-sm bg-white rounded-3xl h-[780px] shadow-2xl relative overflow-hidden border-[8px] border-zinc-950">
+        
+        <div class="h-6 w-full flex justify-between px-8 mt-2 items-center text-[10px] font-bold text-gray-700">
+            <span>7:29</span>
+            <div class="flex space-x-1"><span>📶</span><span>🔋</span></div>
+        </div>
+
+        <div class="p-4 border-b border-gray-100 flex items-center space-x-2">
+            <span class="text-xl text-gray-500">←</span>
+            <div class="flex-grow bg-gray-100 rounded-full h-10 flex items-center justify-between px-4 text-sm text-gray-500">
+                <span>tiktok.com/coin</span>
+                <div class="flex items-center space-x-4">
+                    <span>📡 Live</span>
+                    <span>📷 Lens</span>
+                </div>
+            </div>
+            <span class="text-xl text-gray-500">...</span>
+        </div>
+
+        <div class="p-6">
+            <h1 class="text-xl font-extrabold text-gray-900 mb-6">Get Coins</h1>
+            
+            <div class="flex items-center space-x-4 mb-8">
+                <div class="w-14 h-14 bg-black rounded-full flex items-center justify-center text-white text-xs">
+                    [Asset]
+                </div>
+                <div>
+                    <h2 class="font-pro-bold text-gray-950 text-base">Recharge</h2>
+                    <p class="text-yellow-500 font-extrabold text-lg flex items-center">
+                        <span class="mr-1 text-sm bg-tt-yellow p-1 rounded-full text-white">C</span> 
+                        5,003,500
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-red-50 p-3 rounded-lg border border-red-100 mb-6 text-tt-red text-xs italic font-medium">
+                Save around 25% with a lower third-party service fee.
+            </div>
+
+            <div class="grid grid-cols-3 gap-3">
+                
+                <button class="border-2 border-tt-red bg-red-50 p-3 rounded-xl flex flex-col items-center justify-center focus:outline-none">
+                    <span class="text-yellow-500 font-extrabold text-sm flex items-center">
+                        <span class="mr-1 text-[8px] bg-tt-yellow p-1 rounded-full text-white">C</span> 
+                        30
+                    </span>
+                    <span class="text-gray-400 text-[10px] mt-1">$0.31</span>
+                </button>
+
+                <button class="border-2 border-gray-100 p-3 rounded-xl flex flex-col items-center justify-center transition hover:border-tt-red">
+                    <span class="text-yellow-500 font-extrabold text-sm flex items-center">
+                        <span class="mr-1 text-[8px] bg-tt-yellow p-1 rounded-full text-white">C</span> 
+                        350
+                    </span>
+                    <span class="text-gray-400 text-[10px] mt-1">$3.65</span>
+                </button>
+                
+                <button class="border-2 border-gray-100 p-3 rounded-xl flex flex-col items-center justify-center transition hover:border-tt-red">
+                    <span class="text-yellow-500 font-extrabold text-sm flex items-center">
+                        <span class="mr-1 text-[8px] bg-tt-yellow p-1 rounded-full text-white">C</span> 
+                        700
+                    </span>
+                    <span class="text-gray-400 text-[10px] mt-1">$7.25</span>
+                </button>
+                
+                <button class="border-2 border-gray-100 p-3 rounded-xl flex flex-col items-center justify-center transition hover:border-tt-red text-gray-400 text-xs">
+                    Custom
+                </button>
+            </div>
+        </div>
+
+        <div class="absolute bottom-0 left-0 w-full p-4 bg-white border-t border-gray-100">
+            <div class="flex justify-between text-xs mb-3 text-gray-500 font-medium">
+                <span>Special offer</span>
+                <span class="text-tt-red italic">Unlock 5% cash back ></span>
+            </div>
+            
+            <div class="h-6 w-full flex justify-center items-center space-x-2 mb-3 [Asset]">
+                <div class="w-6 h-4 bg-zinc-200"></div><div class="w-6 h-4 bg-zinc-200"></div><div class="w-6 h-4 bg-zinc-200"></div>
+            </div>
+
+            <button onclick="alert('Demo Recharge Successful!')" class="w-full bg-tt-red text-white py-4 rounded-xl font-pro-bold shadow-lg transition active:scale-95">
+                Buy for $0.31
+            </button>
+        </div>
+
+    </div>
+
+</body>
+</html>
