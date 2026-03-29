@@ -1,0 +1,8 @@
+{
+  "userId": "user_12345",
+  "username": "@dev_user",
+  "coinBalance": 5003500,
+  "transactionHistory": [
+    { "id": "TXN_987", "amount": 700, "status": "completed", "date": "2026-03-29" }
+  ]
+}
